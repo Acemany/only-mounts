@@ -7,7 +7,7 @@ using System.Linq;
 namespace OnlyMounts{
     class OnlyMountsPlayer : ModPlayer{
         public override IEnumerable<Item> AddStartingItems(bool mediumCoreDeath){
-            return base.AddStartingItems(mediumCoreDeath).Append(new Item(ItemID.FuzzyCarrot));
+            return base.AddStartingItems(mediumCoreDeath).Append(new Item(ItemID.PogoStick));
         }
 
         public override void PostUpdateEquips(){
